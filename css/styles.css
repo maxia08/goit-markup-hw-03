@@ -53,6 +53,7 @@ header {
   margin-left: auto;
   text-align: start;
   flex-direction: row;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-wrap {
@@ -297,6 +298,9 @@ header {
 /**===============================footer===============================**/
 footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
