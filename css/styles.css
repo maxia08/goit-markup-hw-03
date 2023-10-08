@@ -3,23 +3,71 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
-/**=================================================================**/
-/**========================header================================**/
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
 a {
   text-decoration: none;
 }
+.container {
+  max-width: 1128px;
+  padding-left: 15;
+  padding-right: 15;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**=================================================================**/
+/**========================header================================**/
 
 header {
   background-color: #ffffff;
-}
-.header-navigation {
+  width: 1128px;
+  height: 72px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-sizing: content-box;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: start;
+  flex-direction: row;
 }
 
+.header-wrap {
+  width: 1440px;
+  height: 24px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-navigation {
+  display: border;
+}
+.header-menu {
+}
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -28,6 +76,7 @@ header {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 24px;
 }
 .header-logo-black {
   color: #2e2f42;
@@ -35,7 +84,8 @@ header {
 .header-menu:focus {
   color: #404bbf;
 }
-
+.header-menu-list {
+}
 .header-menu-list:focus {
   color: #404bbf;
 }
@@ -46,6 +96,7 @@ header {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  display: inline-block;
 }
 .header-menu-link:hover {
   color: #404bbf;
@@ -78,14 +129,25 @@ header {
 
 .hero {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  text-align: center;
 }
 .hero-title {
-  color: var(--WHITE, #fff);
+  color: #ffffff;
   text-align: center;
   /* Header 1 */
   font-size: 56px;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  width: 496px;
+  padding-bottom: 48px;
+  padding-top: 188px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+.button {
+  padding: 356px 635px 188px 636px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -97,6 +159,11 @@ header {
   letter-spacing: 0.04em;
   cursor: pointer;
   font-family: inherit;
+  width: 169px;
+  height: 56px;
+  box-sizing: content-box;
+  padding: 16 32 16 32px;
+  margin: 0 auto;
 }
 .hero-button:hover:hover {
   background-color: #404bbf;
@@ -109,10 +176,16 @@ header {
 
 .features {
   background-color: #ffffff;
+  text-align: center;
 }
 .feature-list {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 .feature-item {
+}
+
+.team-wrap {
 }
 .feature-subtitle {
   color: #2e2f42;
@@ -121,6 +194,7 @@ header {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 .feature-item-text {
   color: #434455;
@@ -141,6 +215,8 @@ header {
 
 .team {
   background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
 }
 .team-title {
   color: #2e2f42;
@@ -150,24 +226,38 @@ header {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+  max-width: 162px;
+  margin: 0 auto;
 }
 .team-title-list {
 }
 .team-title-name {
   background-color: #ffffff;
 }
+.team-wrap {
+  width: 1440px;
+  height: 732px;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 24px;
+}
+.team-img {
+}
+
 .team-subtitle {
   color: #2e2f42;
-  text-align: center;
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-text {
   color: #434455;
-  text-align: center;
   /* Body */
   font-size: 16px;
   line-height: 1.5; /* 150% */
@@ -177,10 +267,13 @@ header {
 /**===============================portfolio============================**/
 .portfolio-title {
   color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2; /* 150% */
-  letter-spacing: 0.02em;
+  text-align: center;
+  /* Header 2 */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
 }
 .portfolio-title-list {
 }
