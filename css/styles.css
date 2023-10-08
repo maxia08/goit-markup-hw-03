@@ -136,6 +136,7 @@ header {
   width: 1440px;
   height: 600px;
   text-align: center;
+  padding: 188px 0;
 }
 .hero-title {
   color: #ffffff;
@@ -144,15 +145,14 @@ header {
   font-size: 56px;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  width: 496px;
   padding-bottom: 48px;
-  padding-top: 188px;
   box-sizing: content-box;
   margin: 0 auto;
   display: inline-block;
   margin-bottom: 16px;
+  max-width: 496px; 
 }
-}
+
 .button {
   padding: 356px 635px 188px 636px;
   display: block;
@@ -168,12 +168,14 @@ header {
   letter-spacing: 0.04em;
   cursor: pointer;
   font-family: inherit;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-sizing: content-box;
   padding: 16 32 16 32px;
   margin: 0 auto;
   border: none; 
+  max-width: 496px; 
+  border-radius: 4px; 
 }
 .hero-button:hover:hover {
   background-color: #404bbf;
