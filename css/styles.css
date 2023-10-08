@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
@@ -195,8 +199,6 @@ header {
 .feature-item {
 }
 
-.team-wrap {
-}
 .feature-subtitle {
   color: #2e2f42;
   /* Header 3 */
@@ -253,9 +255,6 @@ header {
   display: flex;
   padding-left: 24px;
 }
-.team-img {
-  display: block;
-}
 
 .team-subtitle {
   color: #2e2f42;
@@ -287,10 +286,6 @@ header {
   text-transform: capitalize;
 }
 .portfolio-title-list {
-}
-
-portfolio-img {
-  display: block;
 }
 
 .portfolio-substitute {
