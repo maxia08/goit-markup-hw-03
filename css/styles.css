@@ -54,6 +54,9 @@ header {
   text-align: start;
   flex-direction: row;
   border-bottom: 1px solid #e7e9fc;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 }
 
 .header-wrap {
@@ -146,9 +149,14 @@ header {
   padding-top: 188px;
   box-sizing: content-box;
   margin: 0 auto;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 }
 .button {
   padding: 356px 635px 188px 636px;
+  display: block;
+  min-width: 169px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -165,6 +173,7 @@ header {
   box-sizing: content-box;
   padding: 16 32 16 32px;
   margin: 0 auto;
+  border: none; 
 }
 .hero-button:hover:hover {
   background-color: #404bbf;
