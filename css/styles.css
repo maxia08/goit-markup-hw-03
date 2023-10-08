@@ -54,9 +54,7 @@ header {
   text-align: start;
   flex-direction: row;
   border-bottom: 1px solid #e7e9fc;
-  display: inline-block;
   margin-bottom: 16px;
-}
 }
 
 .header-wrap {
@@ -150,7 +148,7 @@ header {
   margin: 0 auto;
   display: inline-block;
   margin-bottom: 16px;
-  max-width: 496px; 
+  max-width: 496px;
 }
 
 .button {
@@ -172,9 +170,9 @@ header {
   box-sizing: content-box;
   padding: 16 32 16 32px;
   margin: 0 auto;
-  border: none; 
-  max-width: 496px; 
-  border-radius: 4px; 
+  border: none;
+  max-width: 496px;
+  border-radius: 4px;
   display: block;
 }
 .hero-button:hover:hover {
@@ -256,6 +254,7 @@ header {
   padding-left: 24px;
 }
 .team-img {
+  display: block;
 }
 
 .team-subtitle {
@@ -289,6 +288,11 @@ header {
 }
 .portfolio-title-list {
 }
+
+portfolio-img {
+  display: block;
+}
+
 .portfolio-substitute {
   color: #2e2f42;
   /* Header 3 */
