@@ -299,8 +299,6 @@ header {
 footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -315,6 +313,8 @@ footer {
 
 .footer-logo-white {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
