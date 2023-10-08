@@ -155,7 +155,6 @@ header {
 
 .button {
   padding: 356px 635px 188px 636px;
-  display: block;
   min-width: 169px;
 }
 .hero-button {
@@ -176,6 +175,7 @@ header {
   border: none; 
   max-width: 496px; 
   border-radius: 4px; 
+  display: block;
 }
 .hero-button:hover:hover {
   background-color: #404bbf;
