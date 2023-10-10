@@ -362,6 +362,7 @@ header {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   color: #434455;
