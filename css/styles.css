@@ -288,8 +288,13 @@ header {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.04em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-title-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-substitute {
