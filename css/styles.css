@@ -313,8 +313,6 @@ header {
 footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -325,6 +323,8 @@ footer {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-white {
