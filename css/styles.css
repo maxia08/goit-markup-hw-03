@@ -52,13 +52,13 @@ header {
   padding-top: 24px;
   padding-bottom: 24px;
   box-sizing: content-box;
-  display: flex;
   margin-right: auto;
   margin-left: auto;
   text-align: start;
   flex-direction: row;
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: 16px;
+  padding: 0 15px;
 }
 
 .header-wrap {
@@ -70,9 +70,12 @@ header {
   padding-bottom: 24px;
 }
 .header-navigation {
-  display: border;
+  display: flex;
+  align-items: center;
 }
 .header-menu {
+  display: flex;
+  gap: 40px;
 }
 .header-logo {
   color: #4d5ae5;
@@ -82,7 +85,8 @@ header {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 24px;
+  margin-right: 76px;
+  padding: 24px 0;
 }
 .header-logo-black {
   color: #2e2f42;
@@ -309,6 +313,8 @@ header {
 footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -323,8 +329,6 @@ footer {
 
 .footer-logo-white {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text {
