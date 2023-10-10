@@ -65,10 +65,11 @@ header {
   margin: 0 auto;
 }
 .header-container {
-  width: 1158px;
   display: flex;
-  padding: 0 15px;
-  margin-right: 76px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1158px;
+  margin: 0 auto;
 }
 
 .header-wrap {
