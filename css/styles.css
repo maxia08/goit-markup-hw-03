@@ -59,6 +59,11 @@ header {
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: 16px;
 }
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
 .header-container {
   width: 1158px;
   display: flex;
@@ -92,7 +97,6 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  padding: 24px 0;
 }
 .header-logo-black {
   color: #2e2f42;
@@ -106,13 +110,14 @@ header {
   color: #404bbf;
 }
 .header-menu-link {
+  display: block;
   color: #2e2f42;
   /* Body Medium */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  display: inline-block;
+  padding: 24px 0;
 }
 .header-menu-link:hover {
   color: #404bbf;
@@ -126,6 +131,7 @@ header {
 }
 
 .header-contact-menu {
+  display: flex;
 }
 
 .header-contact-details {
@@ -203,14 +209,18 @@ header {
 .features {
   background-color: #ffffff;
   text-align: center;
+  padding: 120px 0;
 }
 .feature-list {
+  display: flex;
   margin-top: 120px;
   margin-bottom: 120px;
 }
 .feature-item {
 }
-
+.container-feature {
+  padding: 120px 0;
+}
 .feature-subtitle {
   color: #2e2f42;
   /* Header 3 */
@@ -239,8 +249,7 @@ header {
 
 .team {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
+  padding: 120px 0;
 }
 .team-title {
   color: #2e2f42;
@@ -250,12 +259,16 @@ header {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
   max-width: 162px;
-  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .team-title-list {
+  display: flex;
+}
+
+.team-container {
+  margin-bottom: 72px;
+  display: flex;
 }
 .team-title-name {
   background-color: #ffffff;
@@ -277,6 +290,8 @@ header {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  gap: 24px;
 }
 .team-text {
   color: #434455;
@@ -287,6 +302,11 @@ header {
 }
 /**=====================================================================**/
 /**===============================portfolio============================**/
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -298,6 +318,13 @@ header {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-title-list {
   display: flex;
   flex-wrap: wrap;
