@@ -58,7 +58,12 @@ header {
   flex-direction: row;
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: 16px;
+}
+.header-container {
+  width: 1158px;
+  display: flex;
   padding: 0 15px;
+  margin-right: 76px;
 }
 
 .header-wrap {
@@ -68,6 +73,7 @@ header {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding: 0 15px;
 }
 .header-navigation {
   display: flex;
@@ -127,6 +133,8 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  padding: 0 15px;
 }
 
 .header-contact-details:hover,
