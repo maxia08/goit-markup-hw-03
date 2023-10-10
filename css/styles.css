@@ -60,10 +60,6 @@ header {
   margin-bottom: 16px;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-}
 .header-container {
   display: flex;
   justify-content: space-between;
