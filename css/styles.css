@@ -251,6 +251,11 @@ header {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+
+.team-container {
+  display: flex;
+  gap: 24px;
+}
 .team-title {
   color: #2e2f42;
   text-align: center;
@@ -266,12 +271,14 @@ header {
   display: flex;
 }
 
-.team-container {
+.team-person {
   margin-bottom: 72px;
   display: flex;
 }
 .team-title-name {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-wrap {
   width: 1440px;
@@ -319,10 +326,11 @@ header {
   margin-bottom: 72px;
 }
 
-.portfolio-container {
+.portfolio-department {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
 }
 
 .portfolio-title-list {
