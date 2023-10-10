@@ -252,7 +252,7 @@ header {
   padding: 120px 0;
 }
 
-.team-container {
+.team-person {
   display: flex;
   gap: 24px;
 }
