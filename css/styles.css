@@ -155,6 +155,10 @@ header {
   text-align: center;
   padding: 188px 0;
 }
+
+.container-hero {
+}
+
 .hero-title {
   color: #ffffff;
   text-align: center;
@@ -208,12 +212,26 @@ header {
   text-align: center;
   padding: 120px 0;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .feature-list {
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  gap: 24px;
 }
 .feature-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .container-feature {
   padding: 120px 0;
