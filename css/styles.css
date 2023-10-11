@@ -298,7 +298,6 @@ header {
   align-items: center;
   max-width: 162px;
   margin-bottom: 72px;
-  gap: 24px;
 }
 
 .team-title-list {
@@ -318,7 +317,6 @@ header {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  gap: 24px;
   margin-bottom: 72px;
 }
 .team-title-name {
