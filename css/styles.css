@@ -127,6 +127,7 @@ header {
 .header-contact {
   font-style: normal;
   gap: 40px;
+  align-items: end;
 }
 
 .header-contact-menu {
@@ -220,7 +221,6 @@ header {
 
 .features {
   background-color: #ffffff;
-  text-align: center;
   padding: 120px 0;
 }
 
@@ -242,11 +242,9 @@ header {
   gap: 24px;
 }
 .feature-item {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
+  flex-basis: calc((100% - 72px) / 4);
+  border: 1px solid #000;
+  background: #fff;
 }
 .container-feature {
   padding: 120px 0;
@@ -303,9 +301,12 @@ header {
 }
 .team-title-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  border-radius: 0px 0px 4px 4px;
 }
-.tem-img {
+.team-img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-person {
@@ -324,13 +325,6 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
-}
-.team-wrap {
-  width: 1440px;
-  height: 732px;
-  margin: 0 auto;
-  display: flex;
-  padding-left: 24px;
 }
 
 .team-subtitle {
@@ -358,7 +352,6 @@ header {
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
-  border-radius: 0px 0px 4px 4px;
 }
 .portfolio-title {
   color: #2e2f42;
@@ -388,6 +381,7 @@ header {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-substitute {
@@ -436,4 +430,7 @@ footer {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
 }
