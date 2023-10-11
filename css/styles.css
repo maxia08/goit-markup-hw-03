@@ -29,6 +29,7 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 a {
@@ -66,17 +67,16 @@ header {
   align-items: center;
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-wrap {
-  width: 1440px;
-  height: 24px;
-  margin: 0 auto;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding: 0 15px;
+  align-items: center;
+  gap: 40px;
+  padding: 24px 0;
 }
+
 .header-navigation {
   display: flex;
   align-items: center;
@@ -98,6 +98,7 @@ header {
 .header-logo-black {
   color: #2e2f42;
 }
+
 .header-menu:focus {
   color: #404bbf;
 }
@@ -125,10 +126,18 @@ header {
 
 .header-contact {
   font-style: normal;
+  gap: 40px;
 }
 
 .header-contact-menu {
   display: flex;
+}
+
+.header-contact-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .header-contact-details {
@@ -154,6 +163,7 @@ header {
   height: 600px;
   text-align: center;
   padding: 188px 0;
+  margin: auto;
 }
 
 .container-hero {
@@ -168,10 +178,11 @@ header {
   letter-spacing: 0.02em;
   padding-bottom: 48px;
   box-sizing: content-box;
-  margin: 0 auto;
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 16px;
   max-width: 496px;
+  display: block;
 }
 
 .button {
@@ -232,6 +243,8 @@ header {
 }
 .feature-item {
   flex-basis: calc((100% - 72px) / 4);
+  line-height: 24px;
+  letter-spacing: 24px;
 }
 .container-feature {
   padding: 120px 0;
@@ -265,11 +278,15 @@ header {
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
+  width: 1440px;
+  height: 732px;
+  margin: 0 auto;
 }
 
 .team-person {
   display: flex;
   gap: 24px;
+  margin-bottom: 72px;
 }
 .team-title {
   color: #2e2f42;
@@ -284,16 +301,27 @@ header {
 }
 .team-title-list {
   display: flex;
+  gap: 24px;
 }
-
+.tem-img {
+  border-radius: 0px 0px 4px 4px;
+}
 .team-person {
-  margin-bottom: 72px;
   display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 .team-title-name {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+
+  display: flexbox;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
 }
 .team-wrap {
   width: 1440px;
@@ -346,6 +374,10 @@ header {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+}
+
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title-list {
