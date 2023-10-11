@@ -285,17 +285,17 @@ header {
   width: 1440px;
   height: 732px;
   margin: 0 auto;
+  align-items: center;
+  text-align: center;
 }
 
 .team-title {
   color: #2e2f42;
-  text-align: center;
   /* Header 2 */
   font-size: 36px;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  align-items: center;
   max-width: 162px;
   margin-bottom: 72px;
 }
@@ -303,11 +303,12 @@ header {
 .team-title-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  gap: 24px;
   row-gap: 48px;
+  margin-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-img {
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-person {
@@ -322,11 +323,11 @@ header {
 .team-title-name {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-
   display: flexbox;
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-subtitle {
