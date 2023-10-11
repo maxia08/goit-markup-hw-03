@@ -242,9 +242,11 @@ header {
   gap: 24px;
 }
 .feature-item {
-  flex-basis: calc((100% - 72px) / 4);
-  line-height: 24px;
-  letter-spacing: 24px;
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 .container-feature {
   padding: 120px 0;
@@ -356,6 +358,7 @@ header {
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
 }
 .portfolio-title {
   color: #2e2f42;
