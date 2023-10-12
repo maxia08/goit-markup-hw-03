@@ -47,24 +47,15 @@ a {
 /**========================header================================**/
 
 header {
-  background-color: #ffffff;
-  width: 1128px;
-  height: 72px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  box-sizing: content-box;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: start;
-  flex-direction: row;
   border-bottom: 1px solid #e7e9fc;
-  margin-bottom: 16px;
 }
 
 .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header-wrap {
