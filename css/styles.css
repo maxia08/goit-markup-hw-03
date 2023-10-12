@@ -51,14 +51,10 @@ header {
 }
 
 .header-container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   display: flex;
   padding: 0 15px;
-}
-
-.container {
-  min-width: 1158px;
 }
 
 .header-navigation {
