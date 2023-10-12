@@ -243,11 +243,9 @@ header {
   border: 1px solid #000;
   background: #fff;
   text-align: center;
-  display: flex;
   width: 264px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
 }
 .container-feature {
   padding: 120px 0;
@@ -259,7 +257,7 @@ header {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .feature-item-text {
   color: #434455;
