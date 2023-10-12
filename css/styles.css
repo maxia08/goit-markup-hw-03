@@ -107,9 +107,9 @@ header {
 }
 
 .header-contact {
-  font-style: normal;
+  display: flex;
+  align-items: center;
   gap: 40px;
-  align-items: end;
 }
 
 .header-contact-menu {
