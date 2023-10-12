@@ -297,11 +297,7 @@ header {
 
 .team-title-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
-  row-gap: 48px;
-  margin-bottom: 120px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title-name {
