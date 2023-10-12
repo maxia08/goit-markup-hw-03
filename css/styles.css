@@ -58,13 +58,6 @@ header {
   margin: 0 auto;
 }
 
-.header-wrap {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  padding: 24px 0;
-}
-
 .header-navigation {
   display: flex;
   align-items: center;
@@ -231,6 +224,8 @@ header {
 }
 .feature-item {
   flex-basis: calc((100% - 72px) / 4);
+  border: 1px solid #000;
+  background: #fff;
 }
 .container-feature {
   padding: 120px 0;
